@@ -1,0 +1,10 @@
+name             'wlw_widgetsinc_app'
+maintainer       'YOUR_NAME'
+maintainer_email 'YOUR_EMAIL'
+license          'All rights reserved'
+description      'Installs/Configures wlw_widgetsinc_app'
+long_description 'Installs/Configures wlw_widgetsinc_app'
+version          '0.1.0'
+
+depends 'wls_widgetsinc'
+depends 'wl_app'

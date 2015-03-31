@@ -1,0 +1,7 @@
+name             'wls_widgetsinc'
+maintainer       'YOUR_NAME'
+maintainer_email 'YOUR_EMAIL'
+license          'All rights reserved'
+description      'Installs/Configures wls_widgetsinc'
+long_description 'Installs/Configures wls_widgetsinc'
+version          '0.1.0'

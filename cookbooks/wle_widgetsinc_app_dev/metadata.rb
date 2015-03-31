@@ -1,0 +1,13 @@
+name             'wle_widgetsinc_app_dev'
+maintainer       'YOUR_NAME'
+maintainer_email 'YOUR_EMAIL'
+license          'All rights reserved'
+description      'Installs/Configures wle_widgetsinc_app_dev'
+long_description 'Installs/Configures wle_widgetsinc_app_dev'
+version          '0.1.0'
+
+depends 'wls_widgetsinc'
+depends 'wls_widgetsinc_dev'
+depends 'wlw_widgetsinc_app'
+depends 'wl_app'
+depends 'wlw_zlib'

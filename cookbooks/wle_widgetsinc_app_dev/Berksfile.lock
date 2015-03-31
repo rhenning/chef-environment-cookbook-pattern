@@ -1,0 +1,53 @@
+DEPENDENCIES
+  wl_app
+    path: ../wl_app
+  wle_widgetsinc_app_dev
+    path: .
+    metadata: true
+  wls_widgetsinc
+    path: ../wls_widgetsinc
+  wls_widgetsinc_dev
+    path: ../wls_widgetsinc_dev
+  wlw_widgetsinc_app
+    path: ../wlw_widgetsinc_app
+  wlw_zlib
+    path: ../wlw_zlib
+
+GRAPH
+  apt (2.7.0)
+  bluepill (2.3.1)
+    rsyslog (>= 0.0.0)
+  build-essential (2.2.2)
+  nginx (2.7.6)
+    apt (~> 2.2)
+    bluepill (~> 2.3)
+    build-essential (~> 2.0)
+    ohai (~> 2.0)
+    runit (~> 1.2)
+    yum-epel (~> 0.3)
+  ohai (2.0.1)
+  rsyslog (1.15.0)
+  runit (1.5.18)
+    build-essential (>= 0.0.0)
+    yum (~> 3.0)
+    yum-epel (>= 0.0.0)
+  wl_app (0.1.0)
+    nginx (>= 0.0.0)
+    wlw_zlib (>= 0.0.0)
+  wle_widgetsinc_app_dev (0.1.0)
+    wl_app (>= 0.0.0)
+    wls_widgetsinc (>= 0.0.0)
+    wls_widgetsinc_dev (>= 0.0.0)
+    wlw_widgetsinc_app (>= 0.0.0)
+    wlw_zlib (>= 0.0.0)
+  wls_widgetsinc (0.1.0)
+  wls_widgetsinc_dev (0.1.0)
+  wlw_widgetsinc_app (0.1.0)
+    wl_app (>= 0.0.0)
+    wls_widgetsinc (>= 0.0.0)
+  wlw_zlib (0.1.0)
+    zlib (>= 0.0.0)
+  yum (3.5.3)
+  yum-epel (0.6.0)
+    yum (~> 3.0)
+  zlib (2.0.0)

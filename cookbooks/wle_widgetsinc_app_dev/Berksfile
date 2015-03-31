@@ -1,0 +1,9 @@
+source "https://supermarket.getchef.com"
+
+metadata
+
+cookbook 'wls_widgetsinc', path: '../wls_widgetsinc'
+cookbook 'wls_widgetsinc_dev', path: '../wls_widgetsinc_dev'
+cookbook 'wlw_widgetsinc_app', path: '../wlw_widgetsinc_app'
+cookbook 'wl_app', path: '../wl_app'
+cookbook 'wlw_zlib', path: '../wlw_zlib'
